@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.passwordkeeper11">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/password"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/password"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AboutMe" />
+        <activity android:name=".ChangePassword" />
+        <activity android:name=".ViewData" />
+        <activity android:name=".addData" />
+        <activity android:name=".Home" />
+        <activity android:name=".MainActivity">
+
+        </activity>
+    </application>
+
+</manifest>
